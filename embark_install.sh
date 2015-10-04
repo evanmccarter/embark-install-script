@@ -19,7 +19,9 @@ sudo aptitude install -y software-properties-common
 sudo add-apt-repository -y ppa:ethereum/ethereum
 sudo aptitude update
 sudo aptitude install -y ethereum
+#resolve EULA
 echo -e "y\nexit\n" | geth console
+#create new account
 echo -e "personal.newAccount(\"123\")\nexit\n" | geth console
 
 #install CPP-ethereum
