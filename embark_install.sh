@@ -2,7 +2,7 @@
 
 #basics
 #TODO: ensure apt/aptitude auto-confirm installations
-sudo apt-get update; sudo apt-get install aptitude
+sudo apt-get update; sudo apt-get install -y aptitude
 sudo aptitude update; sudo aptitude -y upgrade
 
 #install git
